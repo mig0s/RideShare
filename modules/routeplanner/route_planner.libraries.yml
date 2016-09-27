@@ -1,0 +1,18 @@
+# Add google maps api.
+googleapis:
+  remote: http://maps.googleapis.com/maps/api/js
+  license:
+    name: Service License
+    url: https://developers.google.com/maps/terms
+  js:
+    http://maps.googleapis.com/maps/api/js: { type: external, minified: true }
+
+
+route_planner:
+  version: 1.x
+  js:
+    route_planner.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings

@@ -1,0 +1,11 @@
+name = Route Planner
+description = Route Planning via Google Maps.
+core = 7.x
+configure = admin/config/content/routeplanner
+
+; Information added by Drupal.org packaging script on 2016-02-12
+version = "8.x-1.0"
+core = "8.x"
+project = "routeplanner"
+datestamp = "1455288263"
+
