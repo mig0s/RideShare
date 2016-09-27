@@ -1,0 +1,8 @@
+name: 'Custom CSS and JS'
+description: 'Adding custom CSS & JS'
+type: module
+libraries:
+- custom/custom
+# Information added by Drupal.org packaging script on 2016-02-12
+version: '8.x-1.0'
+core: '8.x'

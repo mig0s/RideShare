@@ -1,81 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a1f6168-9d24-4b97-a4e5-973d01394f1d" name="Default" comment="Adding modules">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/.travis-before-script.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.info.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.install" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.libraries.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.links.action.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.links.menu.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.module" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.permissions.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.plugin_type.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.routing.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.services.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/address.views.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/config/schema/address.schema.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/css/address.form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/AddressFormatAccessControlHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/AddressFormatImporter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/AddressFormatImporterInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/AddressFormatListBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/AddressFormatStorage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/AddressInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/AddressServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Annotation/ZoneMember.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Entity/AddressFormat.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Entity/AddressFormatInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Entity/Zone.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Entity/ZoneInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Event/AddressEvents.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Event/AvailableCountriesEvent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Event/InitialValuesEvent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/FieldHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Form/AddressFormatDeleteForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Form/AddressFormatForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Form/ZoneForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/LabelHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/EntityReferenceSelection/ZoneSelection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldFormatter/AddressDefaultFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldFormatter/AddressPlainFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldType/AddressItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldWidget/AddressDefaultWidget.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Validation/Constraint/AddressFormatConstraint.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Validation/Constraint/AddressFormatConstraintValidator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Validation/Constraint/CountryConstraint.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Validation/Constraint/CountryConstraintValidator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/ZoneMember/ZoneMemberBase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/ZoneMember/ZoneMemberCountry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/ZoneMember/ZoneMemberEu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/ZoneMember/ZoneMemberInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/ZoneMember/ZoneMemberZone.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/views/field/CountryCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/views/field/Subdivision.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/views/filter/CountryCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/PluginDefinition/ZoneMemberPluginDefinitionDecorator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Repository/AddressFormatRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Repository/CountryRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Repository/SubdivisionRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Repository/ZoneRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Tests/AddressDefaultWidgetTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Tests/AddressFormatTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Tests/Formatter/DefaultFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Tests/Formatter/PlainFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/Tests/ZoneTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/ZoneListBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/ZoneMemberManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/src/ZoneMemberPluginCollection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/templates/address-plain.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/tests/modules/address_test/address_test.info.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/tests/modules/address_test/address_test.services.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/tests/modules/address_test/src/EventSubscriber/AddressTestEventSubscriber.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/address/tests/src/Unit/Plugin/Validation/Constraint/CountryConstraintValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="3a1f6168-9d24-4b97-a4e5-973d01394f1d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/custom.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/custom.libraries.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drupal-8.1.9.iws" />
@@ -110,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="731">
               <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.info.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/custom/custom.info.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -252,7 +192,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="address" />
+              <option name="myItemId" value="custom" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,12 +287,20 @@
       <workItem from="1474506269315" duration="267000" />
       <workItem from="1475015348781" duration="563000" />
       <workItem from="1475015932418" duration="575000" />
-      <workItem from="1475017278994" duration="283000" />
+      <workItem from="1475017278994" duration="363000" />
     </task>
+    <task id="LOCAL-00001" summary="Address module added;">
+      <created>1475017602559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475017602559</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22723000" />
+    <option name="totallyTimeSpent" value="22803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
@@ -388,6 +336,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Address module added;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Address module added;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -477,13 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/custom.info.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -617,6 +562,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/custom.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding />
         </state>
       </provider>
