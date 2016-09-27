@@ -51,10 +51,20 @@
                         center: location
                     }
                     this.map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-                    var marker = new google.maps.Marker({
+                    /*var marker = new google.maps.Marker({
                         map: this.map,
                         position: results[0].geometry.location
-                    });
+                    });*/
+
+                    var addresses = document.getElementsByClassName("address-line1");
+
+                    var departure = addresses[0].innerHTML + ", Singapore";
+                    var destination = addresses[1].innerHTML + ", Singapore";
+
+                    document.getElementById("edit-start").value=departure;
+                    document.getElementById("edit-end").value=destination;
+                    document.getElementById("edit-button").click();
+
                     directionsDisplay.setMap(this.map);
                 }
                 else {

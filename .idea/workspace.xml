@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a1f6168-9d24-4b97-a4e5-973d01394f1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/config/install/route_planner.settings.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/config/schema/route_planner.schema.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.info.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.install" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.libraries.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.links.menu.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.module" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.routing.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/src/Controller/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/src/Form/RoutePlannerAddressForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/src/Form/RoutePlannerSettingsForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/src/Plugin/Block/Map.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/routeplanner/src/Plugin/Block/RouteTarget.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/routeplanner/route_planner.info.yml" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.info.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/routeplanner/route_planner.js" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/routeplanner/route_planner.libraries.yml" afterPath="$PROJECT_DIR$/modules/routeplanner/route_planner.libraries.yml" />
     </list>
     <ignored path="drupal-8.1.9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -282,7 +268,7 @@
       <workItem from="1474506269315" duration="267000" />
       <workItem from="1475015348781" duration="563000" />
       <workItem from="1475015932418" duration="575000" />
-      <workItem from="1475017278994" duration="583000" />
+      <workItem from="1475017278994" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="Address module added;">
       <created>1475017602559</created>
@@ -305,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475017787700</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="RoutePlanner module added;">
+      <created>1475017888198</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1475017888198</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23023000" />
+    <option name="totallyTimeSpent" value="23086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
@@ -350,7 +343,8 @@
     <MESSAGE value="Address module added;" />
     <MESSAGE value="Creating custom library;" />
     <MESSAGE value="Devel module added;&#10;Enabling Web Profiler;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Devel module added;&#10;Enabling Web Profiler;" />
+    <MESSAGE value="RoutePlanner module added;" />
+    <option name="LAST_COMMIT_MESSAGE" value="RoutePlanner module added;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

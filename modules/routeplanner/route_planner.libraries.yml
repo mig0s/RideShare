@@ -1,11 +1,16 @@
+hideform:
+  css:
+    theme:
+      hideform/hideform.css: {}
+
 # Add google maps api.
 googleapis:
-  remote: http://maps.googleapis.com/maps/api/js
+  remote: http://maps.googleapis.com/maps/api/js?key=AIzaSyCfByDj4H8-z_HJjZ1Hjzd3ILZCNxgTCN0
   license:
     name: Service License
     url: https://developers.google.com/maps/terms
   js:
-    http://maps.googleapis.com/maps/api/js: { type: external, minified: true }
+    http://maps.googleapis.com/maps/api/js?key=AIzaSyCfByDj4H8-z_HJjZ1Hjzd3ILZCNxgTCN0: { type: external, minified: true }
 
 
 route_planner:
