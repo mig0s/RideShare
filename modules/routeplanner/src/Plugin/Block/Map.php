@@ -38,10 +38,13 @@ class Map extends BlockBase {
     );
 
     // Add google maps api.
-    $build['#attached']['library'][] = 'route_planner/googleapis';
+    $build['#attached']['library'][] = 'route_planner/googleapis?key=AIzaSyCfByDj4H8-z_HJjZ1Hjzd3ILZCNxgTCN0';
 
     // Add some custom javascript to display the map.
     $build['#attached']['library'][] = 'route_planner/route_planner';
+
+    // Add some custom javascript to display the map.
+    $build['#attached']['library'][] = 'route_planner/hideform';
 
     // Attach the settings from route_planner settings form.
     $route_settings = array(
